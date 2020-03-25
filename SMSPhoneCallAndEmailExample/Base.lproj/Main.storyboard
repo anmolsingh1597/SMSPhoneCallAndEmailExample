@@ -8,13 +8,73 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Second Page View Controller-->
+        <scene sceneID="l2M-nO-DOr">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="YM5-yC-AlP" customClass="SecondPageViewController" customModule="SMSPhoneCallAndEmailExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="uvy-Yg-vzX"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U6n-h7-IMs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2232.8000000000002" y="-16.641679160419791"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pfE-Z3-689">
+            <objects>
+                <viewController storyboardIdentifier="secondInstructionVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="71T-il-yb2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L6e-b6-85C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instruction 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwP-uV-Zcd">
+                                <rect key="frame" x="140" y="323" width="96" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.088881986590000003" green="0.21694519349999999" blue="0.26583433969999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="0MY-cG-tWJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jlC-zI-7Z6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969" y="-707"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qlb-K3-kki">
+            <objects>
+                <viewController storyboardIdentifier="firstInstructionVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Oej-aE-rKg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tek-hg-2r9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instruction 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJl-ej-5n5">
+                                <rect key="frame" x="140" y="323" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.41304331770000002" blue="0.52675994250000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Hr9-jO-PAA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gsv-PC-SPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2908" y="-11.244377811094454"/>
+        </scene>
         <!--My Page View Controller-->
         <scene sceneID="rpe-fN-eqJ">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="S5X-S8-mci" customClass="MyPageViewController" customModule="SMSPhoneCallAndEmailExample" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="S5X-S8-mci" customClass="MyPageViewController" customModule="SMSPhoneCallAndEmailExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Fbs-ur-gB3"/>
+                </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LC6-vL-Qhe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-996" y="-14"/>
+            <point key="canvasLocation" x="-56.799999999999997" y="-14.842578710644679"/>
         </scene>
         <!--Phone Call AndSMS View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -51,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-274.39999999999998" y="-15.742128935532236"/>
+            <point key="canvasLocation" x="664.79999999999995" y="-15.742128935532236"/>
         </scene>
         <!--Email View Controller-->
         <scene sceneID="a0K-Ra-vy0">
@@ -81,6 +141,14 @@
                                     <action selector="sendMailWithSender:" destination="65U-hZ-LAx" eventType="touchUpInside" id="ALe-kV-ynk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAu-16-lzK">
+                                <rect key="frame" x="141" y="318" width="115" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Second Page VC"/>
+                                <connections>
+                                    <segue destination="YM5-yC-AlP" kind="show" id="Kfz-L7-pX3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="0Qi-da-dgd"/>
@@ -92,7 +160,31 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M9g-cf-YYO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="424.80000000000001" y="-15.742128935532236"/>
+            <point key="canvasLocation" x="1364" y="-15.742128935532236"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RLa-Vz-Uw6">
+            <objects>
+                <viewController storyboardIdentifier="thirdInstructionVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WKr-jt-Rvi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1D0-aD-WmD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instruction 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aC4-nD-f2i">
+                                <rect key="frame" x="131" y="323" width="97" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="eqD-XG-KRn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fun-fq-TDh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969" y="684"/>
         </scene>
     </scenes>
     <resources>

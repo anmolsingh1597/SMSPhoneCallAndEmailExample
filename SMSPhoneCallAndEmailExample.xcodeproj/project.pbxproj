@@ -16,6 +16,7 @@
 		0768E8B71FA29CB800B1B558 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0768E8B61FA29CB800B1B558 /* MyPageViewController.swift */; };
 		07D3C74E204F7D8100E00441 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C750204F7D8100E00441 /* Localizable.strings */; };
 		07D3C752204F800700E00441 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D3C754204F800700E00441 /* car.png */; };
+		8EC43BE0242C134500BD74FF /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC43BDF242C134500BD74FF /* SecondPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		07D3C751204F7D9E00E00441 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		07D3C753204F800700E00441 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/car.png; sourceTree = "<group>"; };
 		07D3C755204F800E00E00441 /* es */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = es; path = es.lproj/car.png; sourceTree = "<group>"; };
+		8EC43BDF242C134500BD74FF /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				0768E8A21FA28EA300B1B558 /* PhoneCallAndSMSViewController.swift */,
 				0768E8B41FA291D200B1B558 /* EmailViewController.swift */,
 				0768E8B61FA29CB800B1B558 /* MyPageViewController.swift */,
+				8EC43BDF242C134500BD74FF /* SecondPageViewController.swift */,
 				0768E8A41FA28EA300B1B558 /* Main.storyboard */,
 				0768E8A71FA28EA300B1B558 /* Assets.xcassets */,
 				0768E8A91FA28EA300B1B558 /* LaunchScreen.storyboard */,
@@ -168,6 +171,7 @@
 				0768E8B51FA291D200B1B558 /* EmailViewController.swift in Sources */,
 				0768E8A11FA28EA300B1B558 /* AppDelegate.swift in Sources */,
 				0768E8B71FA29CB800B1B558 /* MyPageViewController.swift in Sources */,
+				8EC43BE0242C134500BD74FF /* SecondPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
